@@ -8,6 +8,11 @@ General CSS properties that affects the entirety of the landing page as a whole
     padding:0;  
 }
 
+@font-face {
+    font-family: "Norse Bold";
+
+}
+
 .content {
     display: flex;
     align-items: center;
@@ -23,7 +28,7 @@ General CSS properties that affects the entirety of the landing page as a whole
 }
 
 .left > .background {
-    background-image: url("/Users/vincentlu/Downloads/lena-polishko-_G2bosgqKfo-unsplash.jpg");
+    background-image: url("./lena-polishko-_G2bosgqKfo-unsplash.jpg");
     background-size: cover;
     width:100%;
     height:100%;
