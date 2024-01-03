@@ -31,10 +31,25 @@ General CSS properties that affects the entirety of the landing page as a whole
     display: flex;
     flex-direction: column;
     
-    background-image: url("./lena-polishko-_G2bosgqKfo-unsplash.jpg");
+    background-image: url("./klemen-vrankar-lcT_p8kLCsc-unsplash.jpg");
     background-size: cover;
     width:100%;
     height:100%;
+}
+
+.source{
+    display: flex;
+    justify-content: center;
+    margin-top: 55vh;
+
+    color: rgb(244, 233, 233);
+    font-size: small;
+
+
+}
+
+.source > p > a {
+    color: rgb(244, 233, 233);;
 }
 
 .banner {
@@ -48,7 +63,7 @@ General CSS properties that affects the entirety of the landing page as a whole
     padding-bottom: 20px;
     
     color: white;
-    background-color: rgba(45, 46, 47,.5)
+    background-color: rgba(45, 46, 47,.55)
 }
 
 .banner > span {
@@ -118,14 +133,12 @@ General CSS properties that affects the entirety of the landing page as a whole
 .form > .row {
     background-color: antiquewhite;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
 .form > .row:nth-child(4) {
     padding-bottom: 40px;
 }
-
-
 
 .column1,
 .column2{
