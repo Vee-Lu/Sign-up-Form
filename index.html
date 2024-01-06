@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Sheet</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="password.js" defer></script>
 </head >
 
 <body>
@@ -75,11 +76,13 @@
                     <div class="column1">
                         <label for="password">PASSWORD</label>
                         <input type="password" id="password" name="password" minlength="8">
+                        <p></p>
                     </div>
 
                     <div class="column2">
                         <label for="confirm_password">CONFIRM PASSWORD</label>
                         <input type="password" id="confirm_password" name="confirm_password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">  
+                        <p id="invalid"></p>
                     </div>
                 </div>
 

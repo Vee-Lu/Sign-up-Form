@@ -198,6 +198,12 @@ input {
     padding-left: 5px;
 }
 
+.column1 > p,
+.column2 > p{
+    font-size: x-small;
+    margin-top: 5px;
+}
+
 input:focus {
     box-shadow:  2px 2px 4px 1px gray;
 }
